@@ -1,4 +1,4 @@
-PACKAGE_NAME?=	redborder-http2k
+PACKAGE_NAME?=	redborder-n2klocd
 
 VERSION?=	$(shell git describe --abbrev=6 --tags HEAD --always | sed 's/-/_/g')
 
