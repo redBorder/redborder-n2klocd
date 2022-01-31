@@ -1,0 +1,9 @@
+[Unit]
+Description=n2klocd daemon
+
+[Service]
+User=root
+ExecStart=/usr/bin/n2kafka /etc/n2klocd/config.json
+
+[Install]
+WantedBy=multi-user.target
